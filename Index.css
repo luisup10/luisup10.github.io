@@ -1,0 +1,756 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(245, 245, 245);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.6em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: blueviolet;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 73vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("portada.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: white;
+}
+
+#concepto .container{
+    text-align: center;
+    padding: 200px 12px;
+
+}
+
+#Templos{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center
+}
+
+#Templos .container{
+    padding: 60px 12px;
+}
+
+#Templos h2{
+    margin-top: 0;
+    font-size: 3,2em;
+}
+
+#Templos p{
+    display: none;
+}
+
+#Templos .templo{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.templo:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("templos/templo-zangbeto.jpg");
+
+}
+
+.templo:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("templos/Templo-Griego.png");
+}
+
+.templo:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("templos/Harmandir-Sahib\ .png");
+}
+
+#Robots{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center
+}
+
+#Robots .container{
+    padding: 50px 12px;
+}
+
+#Robots h2{
+    margin-top: 0;
+    font-size: 3,2em;
+}
+
+#Robots p{
+    display: none;
+}
+
+
+#Robots .robot{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 15px;
+    border-radius: 15px;
+}
+.robot:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("robots/paletizador.png");
+
+}
+
+.robot:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("robots/line-follower.png");
+}
+
+.robot:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("robots/delta.png");
+}
+.robot:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("robots/omron.png");
+}
+
+#Robots .circuito{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.circuito:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("robots/circuito-line.png");
+
+}
+
+.circuito:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("robots/circuito-delta.png");
+}
+
+
+#Hardware{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center
+}
+
+#Hardware a{
+
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 2.7em;
+    
+}
+
+#Deportes a{
+
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 2.7em;
+}
+
+#Hardware a:hover{
+    color: blueviolet;
+}
+
+#Deportes a:hover{
+    color: blueviolet;
+}
+
+
+
+
+#Hardware .container{
+    padding: 50px 12px;
+}
+
+#Hardware h2{
+    margin-top: 0;
+    font-size: 3,2em;
+}
+
+#Hardware p{
+    display: none;
+}
+
+
+#Hardware .componente{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.componente:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("hardware/cpu.png");
+
+}
+
+.componente:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("hardware/madre.png");
+}
+
+.componente:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("hardware/hhd.png");
+}
+
+#Hardware .componente2{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.componente2:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("hardware/gpu.png");
+}
+
+.componente2:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("hardware/ram.png");
+}
+
+.componente2:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("hardware/poder.png");
+}
+
+#Deportes{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center
+}
+
+#Deportes .container{
+    padding: 50px 12px;
+}
+
+#Deportes h2{
+    margin-top: 0;
+    font-size: 3,2em;
+}
+
+#Deportes p{
+    display: none;
+}
+
+#Deportes .tenis{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.tenis:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("Deportes/Ping-Pong/mesa.png");
+
+}
+
+.tenis:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("Deportes/Ping-Pong/raqueta.png");
+}
+
+.tenis:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("Deportes/Ping-Pong/pelota.png");
+}
+
+#Deportes .beis{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.beis:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("Deportes/Beisbol/campo.png");
+
+}
+
+.beis:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("Deportes/Beisbol/jugador.png");
+}
+
+.beis:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("Deportes/Beisbol/pelota.png");
+}
+
+.beis:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("Deportes/Beisbol/bate.png");
+}
+
+#Laboratorios{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center
+}
+
+#Laboratorios .container{
+    padding: 60px 12px;
+}
+
+#Laboratorios h2{
+    margin-top: 0;
+    font-size: 3,2em;
+}
+
+#Laboratorios p{
+    display: none;
+}
+
+#Laboratorios .lab{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.lab:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("laboratorios/proyeccion.png");
+
+}
+
+.lab:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("laboratorios/abanico.png");
+}
+
+.lab:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("laboratorios/lab1.png");
+}
+
+.lab:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("laboratorios/mani.png");
+}
+
+#Laboratorios{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center
+}
+
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+
+@media (min-width: 720px){
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-top: 25px;
+        padding-right: 20px;
+    }
+
+    #hero h1{
+        font-size: 5em;
+    }
+
+    #concepto .container{
+        display: flex;
+        justify-content: center;
+      
+    }
+
+    
+    #concepto .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #concepto h2{
+        margin-top: 0px;
+    }
+
+    #concepto .img-container{
+        background-image: url("CAD.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+
+    
+
+    #Templos .disenios-templos{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Templos p{
+        display: block;
+       
+    }
+
+    #Templos .templo{
+        padding: 50px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(78, 24, 80, 0.5);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+    #Templos h2{
+        font-size: 4em;
+    }
+
+    #Templos h3{
+        margin-top: 0;
+    }
+
+
+    #Robots .disenios-robots{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Robots p{
+        display: block;
+       
+    }
+
+    #Robots .robot{
+        padding: 50px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(78, 24, 80, 0.5);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+    #Robots h2{
+        font-size: 4em;
+    }
+
+    #Robots h3{
+        margin-top: 0;
+    }
+
+    #Robots .disenios-circuitos{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Robots .circuito{
+        padding: 50px;
+        background-color: rgba(78, 24, 80, 0.5);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+    #Hardware .componentes{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Hardware .componentes2{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Hardware p{
+        display: block;
+       
+    }
+
+    #Hardware .componente{
+        padding: 50px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(78, 24, 80, 0.5);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+    #Hardware .componente2{
+        padding: 50px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(78, 24, 80, 0.5);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+
+
+    #Deportes .ping-pong .disenio-tenis{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Deportes .beisbol .disenio-beisbol{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Deportes p{
+        display: block;
+       
+    }
+
+    #Deportes .tenis{
+        padding: 50px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(78, 24, 80, 0.5);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+    #Deportes .beis{
+        padding: 50px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(78, 24, 80, 0.5);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+    footer .container{
+        justify-content: flex-end;
+    }
+
+    #Laboratorios .labs{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Laboratorios p{
+        display: block;
+       
+    }
+
+    #Laboratorios .lab{
+        padding: 50px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(78, 24, 80, 0.5);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+    #Laboratorios h2{
+        font-size: 4em;
+    }
+
+    #Laboratorios h3{
+        margin-top: 0;
+    }
+
+    
+
+
+}
